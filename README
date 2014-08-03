@@ -1,0 +1,6 @@
+This goes through a field specified in a document and extracts all the SIGADs mentioned.
+
+To use-
+Download 'sigadparse' gem
+s = SIGADParse.new(json input, "field")
+s.match
